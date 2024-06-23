@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ROOT_PATH="/home/ubuntu/ec2-ci-cd-test"
-JAR="$ROOT_PATH/application.jar"
+JAR="$ROOT_PATH/testapp.jar"
 STOP_LOG="$ROOT_PATH/stop.log"
 SERVICE_PID=$(pgrep -f $JAR) # 실행중인 Spring 서버의 PID
 
