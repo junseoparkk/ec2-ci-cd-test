@@ -14,4 +14,9 @@ public class BasicController {
     public String hello() {
         return "hello world!";
     }
+
+    @GetMapping("/test")
+    public String test() {
+        return "this is test page!";
+    }
 }
